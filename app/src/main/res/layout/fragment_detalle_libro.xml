@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guardarLibroFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/actor"
+            android:gravity="center"
+            android:text="Información libro"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblTitulo" />
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "@string/lblAutor" />
+
+        <TextView
+            android:id="@+id/lblAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblIsbn" />
+
+        <TextView
+            android:id="@+id/lblIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/texto4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblGenero" />
+
+        <TextView
+            android:id="@+id/lblGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/texto5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDisponibles" />
+
+        <TextView
+            android:id="@+id/lblnumeroEjemplaresDisponibles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/texto6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblOcupados" />
+
+        <TextView
+            android:id="@+id/lblnumeroEjemplaresOcupados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Eliminar" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:text="Editar" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
